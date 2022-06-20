@@ -1,2 +1,2 @@
 # WebProgrammig
-My web programs duration University life
+My web programs duration University life.
