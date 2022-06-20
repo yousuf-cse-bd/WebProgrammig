@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci</title>
+</head>
+<body>
+	<script>
+
+		var n = window.prompt('Enter n');
+		var a = 0;
+		var b = 1;
+		var c;
+
+		document.write(a+"<br>"+b+"<br>");
+
+		var i;
+		for(i = 2;i<=n;i++)
+		{
+			c = a + b;
+			a = b;
+			b = c;
+			document.write(c+"<br>");
+			// b = b * i;
+		}
+		// document.write(b+"<br>");
+	</script>
+
+</body>
+</html>
